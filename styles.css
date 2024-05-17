@@ -64,33 +64,33 @@ a{
 .yellow{
     background-color: rgb(245, 248, 142);
     opacity:0.5;
-    width:20%;
-    height:20%;
+    width:25%;
+    height:25%;
 }
 
 .green{
     background-color: rgb(52, 208, 156);
     opacity:0.5;
-    width:20%;
-    height:20%;
+    width:25%;
+    height:25%;
 }
 
 .bigbox{
     width:60%;
     height:60%;
     position:absolute;
-    display:grid;
+    display:flex;
     background-color:#ff000022;
     margin:1rem;
 
 }
 
 .bottomleft{
-    justify-self:flex-start;
-    align-self:flex-end;
+    justify-content:flex-start;
+    align-items:flex-end;
 }
 
 .topright{
-    justify-self:flex-end;
-    align-self:flex-start;
+    justify-content:flex-end;
+    align-items:flex-start;
 }
