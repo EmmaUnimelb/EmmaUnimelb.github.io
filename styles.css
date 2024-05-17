@@ -22,7 +22,7 @@ body{
 }
 
 .showbox{
-    width: 300px;
+    width: 400px;
     padding: 0.5rem;
     display:flex;
     flex-direction:column;
@@ -59,4 +59,38 @@ a{
     text-align:center;
     margin:1rem;
     width:80%;
+}
+
+.yellow{
+    background-color: rgb(245, 248, 142);
+    opacity:0.5;
+    width:20%;
+    height:20%;
+}
+
+.green{
+    background-color: rgb(52, 208, 156);
+    opacity:0.5;
+    width:20%;
+    height:20%;
+}
+
+.bigbox{
+    width:60%;
+    height:60%;
+    position:absolute;
+    display:grid;
+    background-color:#ff000022;
+    margin:1rem;
+
+}
+
+.bottomleft{
+    justify-self:flex-start;
+    align-self:flex-end;
+}
+
+.topright{
+    justify-self:flex-end;
+    align-self:flex-start;
 }
