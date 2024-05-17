@@ -20,3 +20,43 @@ body{
     color:#f7f2eb;
     padding:10px;
 }
+
+.showbox{
+    width: 300px;
+    padding: 0.5rem;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+input{
+    margin:1rem;
+    width:80%;
+}
+
+h1,h2,h3,h4,h5{
+    text-align:center;
+}
+
+a{
+    text-decoration:inherit;
+    color:inherit;
+}
+
+.btn{
+    background-color:aquamarine;
+    color:darkslategrey;
+    border-radius:1rem;
+    margin:1rem;
+    text-align:center;
+    width:80%;
+    text-decoration:none;
+}
+
+.display{
+    border: 1px solid darkslategray;
+    border-radius:1rem;
+    text-align:center;
+    margin:1rem;
+    width:80%;
+}
