@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="scripts.js"></script>
+        <link rel="stylesheet" href="styles.css"/>
+    </head>
+    <body>
+        <div class="showbox">
+            <h4>Overlapping two elements - change size of overlapped element here:</h4>
+            <div class="rowbox">
+            <div class="btn" onclick="changeSizeClass('over_img','tiny_box')">Tiny</div>
+            <div class="btn" onclick="changeSizeClass('over_img','little_box')">Small</div>
+            <div class="btn" onclick="changeSizeClass('over_img','half_box')">Half</div>
+        </div>
+    </div>
+        <div class="showbox">
+            <div class="abs_box bottomleft">
+                <div class="full_box" id="main_img"><img class="full_box" src="cupcake.webp"/></div>
+            </div>
+            <div class="abs_box topright">
+                <div class="little_box" id="over_img"><img class="full_box" src="heart.png"/></div>
+            </div>
+        </div>
+    </body>
+</html>

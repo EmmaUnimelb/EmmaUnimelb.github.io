@@ -22,11 +22,18 @@ body{
 }
 
 .showbox{
-    width: 400px;
+    width: 600px;
     padding: 0.5rem;
     display:flex;
     flex-direction:column;
     align-items:center;
+}
+
+.rowbox{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    width:100%;
 }
 
 input{
@@ -51,6 +58,7 @@ a{
     text-align:center;
     width:80%;
     text-decoration:none;
+    padding:0.5rem;
 }
 
 .display{
@@ -63,24 +71,38 @@ a{
 
 .yellow{
     background-color: rgb(245, 248, 142);
-    opacity:0.5;
-    width:25%;
-    height:25%;
+    opacity:0.4;
+
 }
 
 .green{
     background-color: rgb(52, 208, 156);
-    opacity:0.5;
-    width:25%;
-    height:25%;
+    opacity:0.4;
+
 }
 
-.bigbox{
-    width:60%;
-    height:60%;
+.tiny_box{
+    width:10%;
+    height:10%;
+}
+
+.little_box{
+    width:20%;
+    height:20%;
+}
+.half_box{
+    width:50%;
+    height:50%;
+}
+
+.full_box{
+    width:100%;
+    height:100%;
+}
+
+.abs_box{
     position:absolute;
     display:flex;
-    background-color:#ff000022;
     margin:1rem;
 
 }
